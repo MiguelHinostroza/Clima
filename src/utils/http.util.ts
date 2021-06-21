@@ -3,7 +3,7 @@ import axios, {AxiosError, AxiosRequestConfig, AxiosResponse} from "axios";
 const KEY = '774a8892-a972-4dfc-8ca0-b7cf4263f0d4';
 
 const Http = axios.create(
-    {baseURL: 'http://api.airvisual.com/v2/'}
+    {baseURL: 'https://api.airvisual.com/v2/'}
 )
 
 const requestInterceptor = (request: AxiosRequestConfig) => {
