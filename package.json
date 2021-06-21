@@ -2,7 +2,7 @@
   "name": "clima",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MiguelHinostroza.github.com/Clima-visual",
+  "homepage": "https://MiguelHinostroza.github.com/Clima",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
