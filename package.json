@@ -29,7 +29,7 @@
     "docker:build": "docker build -t miguelhinostroza/clima .",
     "docker:run": "docker run -d --name clima -p 80:80 miguelhinostroza/clima",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/mMiguelHinostroza/Clima-visual"
+    "deploy": "gh-pages -d build -r https://$GH_TOKEN@github.com/mMiguelHinostroza/Clima"
   },
   "eslintConfig": {
     "extends": [
